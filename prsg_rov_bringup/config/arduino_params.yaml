@@ -45,8 +45,8 @@ base_frame: base_link
 sensors: {
   #motor_current_left:   {pin: 0, type: PololuMotorCurrent, rate: 5},
   #motor_current_right:  {pin: 1, type: PololuMotorCurrent, rate: 5},
-  #ir_front_center:      {pin: 2, type: GP2D12, rate: 10},
+  ir_sensor:      {pin: 2, type: GP2D12, rate: 10},
   sonar:                {pin: 5, type: Ping, rate: 10},
   arduino_led:          {pin: 13, type: Digital, rate: 5, direction: output}
-  button:               {pin: 12, type: Digital, rate: 5, direction: input}
+  
 }
